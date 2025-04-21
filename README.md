@@ -1,61 +1,62 @@
-My Portfolio
-Welcome to my personal portfolio! I'm Manju Ramar, a passionate Python Developer with a keen interest in web development. This portfolio showcases my journey, skills, and projects in the realm of technology.
+👋 Hi, I'm Manju R – Python Developer & Web Enthusiast
+
+Welcome to my GitHub profile! I'm a passionate developer specializing in Python, front-end technologies, and full-stack web development. I love transforming ideas into interactive, user-friendly websites and applications.
+
+**🛠️ Skills & Technologies**
+
+** Front-End Development**
+HTML5: Crafting semantic and accessible web structures.
+CSS3: Designing responsive layouts with Flexbox and Grid.
+JavaScript: Enhancing user interactivity and dynamic content.
+jQuery: Simplifying DOM manipulation and AJAX requests.
+
+**Back-End Development**
+Python: Building robust back-end logic and automation scripts.
+Django: Developing scalable web applications with Python.
+SQL: Managing and querying relational databases.
 
 
-🧑‍💻 About Me
 
-I'm a web developer specializing in front-end development, with a focus on creating responsive and interactive websites. I enjoy transforming ideas into functional web applications using technologies like HTML, CSS, JavaScript, Python, and SQL.
+**🚀 Projects**
+Here are some of the projects I've worked on:
 
-🛠️ Skills
-
-Front-End Development: HTML, CSS, JavaScript, jQuery
-Back-End Development: Python (Django)
-Database Management: SQL
-Version Control: Git, GitHub
-Tools & Libraries: VS Code, Chrome DevTools, Bootstrap
-
-📚 Things I've Learned
-
-Responsive Design: Crafting layouts that adapt seamlessly across devices.
-DOM Manipulation: Utilizing JavaScript and jQuery for dynamic content updates.
-Backend Logic: Developing server-side functionalities using Python and Django.
-Database Queries: Writing efficient SQL queries for data management.
-Version Control: Managing code versions and collaboration using Git and GitHub.
-
-🚀 Projects
 1. Employee Management System
-A text-based application built with Python, implementing object-oriented principles to manage employee records.
+A text-based application developed in Python, utilizing object-oriented programming concepts to manage employee records.
 
-2. GoShop - E-commerce Layout
-A responsive e-commerce webpage featuring product listings and a user-friendly interface.
+2. GoShop – E-commerce Layout
+A responsive e-commerce webpage featuring product listings, a shopping cart, and user authentication.
 
-3. Rise & Shine Institute Webpage
-A well-structured educational institute website with animations and interactive elements.
+3. Rise & Shine – Institute Webpage
+A well-structured educational institute website with animated elements and a clean design.
 
 4. Login Form with Validation
-A login form designed with HTML, CSS, and JavaScript, featuring client-side validation.
+A simple login form using HTML, CSS, and JavaScript, featuring client-side validation.
 
-5. Calculator Project
-A fully functional calculator built using HTML, CSS, and JavaScript, demonstrating arithmetic operations and dynamic display updates.
+5. Calculator App
+A fully functional calculator built with HTML, CSS, and jQuery, supporting basic arithmetic operations.
 
-📫 Get in Touch
+6. Sign Up & Login Page
+A stylish sign-up and login page with smooth transitions and form validation.
 
-Feel free to connect with me through the following platforms:
-LinkedIn
-GitHub
-Email: manju.ramar3@gmail.com
-
-📄 Education
+**🎓 Education**
 Master's Degree in Environmental Science
-Manonmaniam Sundaranar University, Tirunelveli (2022 - 2024)
+Manonmaniam Sundaranar University, Tirunelveli (2022–2024)
 
 Bachelor's Degree in Environmental Science
-Manonmaniam Sundaranar University, Tirunelveli (2019 - 2022)
+Manonmaniam Sundaranar University, Tirunelveli (2019–2022)
 
 Higher Secondary Education
-St. Louis Hr Sec School, Thoothukudi (2018 - 2019)
+St. Louis Hr Sec School, Thoothukudi (2018–2019)
 
 Secondary Education
-St. Louis Hr Sec School, Thoothukudi (2016 - 2017)
+St. Louis Hr Sec School, Thoothukudi (2016–2017)
+
+**📬 Get in Touch**
+Feel free to reach out to me through any of the following platforms:
+
+1.LinkedIn
+2.GitHub
+3.Email
+
 
 
