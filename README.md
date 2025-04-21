@@ -3,6 +3,7 @@ Welcome to my personal portfolio! I'm Manju Ramar, a passionate Python Developer
 
 
 🧑‍💻 About Me
+
 I'm a web developer specializing in front-end development, with a focus on creating responsive and interactive websites. I enjoy transforming ideas into functional web applications using technologies like HTML, CSS, JavaScript, Python, and SQL.
 
 🛠️ Skills
