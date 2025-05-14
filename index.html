@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css link-->
+    <link rel="stylesheet" href="index.css">
+    <title>portfolio</title>
+    <!--fontawesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--jquery link-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+<!--nav-container-->
+    <section class="nav-container">
+        <nav>
+          <div class="menu-toggle">&#9776;</div> 
+            <ul class="nav-links">
+                <li><a class="active" href="#container-1"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#container-2"><i class="fa-solid fa-circle-user"></i> About</a></li>
+                <li><a href="#container-3"><i class="fa-solid fa-graduation-cap"></i> Skills</a></li>
+                <li><a href="#container-4"><i class="fa-solid fa-list-check"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+  <!--menu button jquery-->
+    <script>
+      $(document).ready(function () {
+        $(".menu-toggle").click(function () {
+          $(".nav-links").slideToggle();
+        });
+      });
+    </script>
+  
+<!--nav-container------------------>
+
+<!--home-container-->
+    
+ <div class="bothside" id="container-1">
+
+    <!--left side content-->    
+  <div class="l_side">
+   <div CLASS="line_1">Hello,It's Me</div><br>
+   <div CLASS="line_2"><span style="color:rgb(233, 139, 153);font-size:47px;">M</span>anju R</div><br>
+   <div class="line_3">And I'm a <span style= "color: rgb(184, 50, 150)" class="job-role"> Python Developer </span></div><br>
+   <div class="line_4">I'm a web developer with a focus on front-end development.<br>
+     I love turning ideas into responsive,interactive websites<br> using tools like 
+     javascript,HTML/CSS & more</div><br>
+
+    
+  <!--button-->
+  <a href="#container-2"><button class="btn_1">About Me!</button></a><br><br>
+
+  <!-- Icons -->
+   <section class="followup_icons">
+    <a href="https://www.linkedin.com/in/manju-ramar-5316392bb"><i class="fa-brands fa-linkedin" id="ln"></i></a>
+    <a href="https://github.com/Manju1803"><i class="fa-brands fa-square-github" id="wp"></i></a>
+    <a href="mailto:manju.ramar3@gmail.com"><i class="fa-solid fa-envelope-open-text"  id="x"></i></a>
+   </section>
+  </div>
+
+  <!--right side content-->
+  <section class="r_side">
+       <div class="side_img"> 
+        <img id="about-img" src="about_photo.jpg" width="300px" height="300px">
+       </div>
+  </section>
+</div>
+
+
+<!--python developer query-->
+<script>
+  $(document).ready(function () {
+    text1 = $(".job-role").text(); // Get existing text from the element
+    i = 0;
+
+    $(".job-role").text(""); // Clear it before typing starts
+
+    function typeWriter() {
+      if (i < text1.length) {
+        $(".job-role").append(text1.charAt(i++));
+        setTimeout(typeWriter, 100);
+      } else {
+        setTimeout(() => {
+          $(".job-role").html("");
+          i = 0;
+          typeWriter();
+        }, 1500);
+      }
+    }
+
+    typeWriter();
+  });
+</script>
+
+<!--home-container end---------------------->
+
+<!--aboutme container-->
+
+<div class="about-container" id="container-2">
+    <div class="aboutus"><i class="fa-solid fa-user-graduate"></i> About Us</div>
+    <div class="sec_r_side">
+       <div id="aboutme"><span id="name"><img id="about-img2" src="about_photo2.jpg" width="120px" ; height="130px";>  Hi, I'm Manju,</span> <br><br>A Python Developer with a strong 
+        interest in building dynamic and user-friendly web applications. 
+        I've completed comprehensive training in <span class="test">Python, HTML, CSS, JavaScript, 
+          and SQL,</span> giving me a full-stack perspective and the ability to bring
+         creative ideas to life through code.<br>
+  
+        I'm passionate about clean, efficient code and always looking to learn new 
+        technologies and take on exciting projects. Whether it's building the 
+        backend logic or designing the front-end interface.</div><br>
+      
+    
+  <div id="education">
+    <div class="education">Education!</div><br>
+
+    <div class="clg2"><i class="fa-solid fa-graduation-cap"></i> Master's Degree in <span style="color:rgb(89, 114, 45); font-size: 20px;">Environmental Science</span></div>
+    <div class="clg-name">Manonmaniam Sundaranar University, Tirunelveli ; 2022 - 2024</div><br>
+
+    <div class="clg1"><i class="fa-solid fa-graduation-cap"></i> Bachelor's Degree in <span style="color: rgb(89, 114, 45);font-size: 20px;">Environmental Science</span></div>
+    <div class="clg-name">Manonmaniam Sundaranar University, Tirunelveli ; 2019 - 2022</div><br>
+
+
+    <div class="schl1"><i class="fa-solid fa-graduation-cap"></i> <span style="color: rgb(89, 114, 45);font-size: 20px;">Higher Secondary</span> Education</div>
+    <div class="schl1-name">St.Louis Hr Sec School, Thoothukudi ; 2018 - 2019</div><br>
+
+
+    <div class="schl2"><i class="fa-solid fa-graduation-cap"></i> <span style="color: rgb(89, 114, 45);font-size: 20px;">Secondary</span> Education</div>
+    <div class="schl2-name">St.Louis Hr Sec School, Thoothukudi ; 2016 - 2017</div><br>
+    </div>
+   </div>
+</div>
+
+<!--aboutme container end------------------------->
+
+<!--skills container-->
+
+<div class="skills" id="container-3">
+    <h2><i class="fa-solid fa-face-smile"></i> Skills</h2>
+  <div class="grid-items">
+      <div class="item1"><i id="ic" class="fa-solid fa-file"></i><br>
+        Front-end Development<br><span CLASS="SP">HTML,CSS</span><br>
+        <p class="parag">HTML is the backbone of web page structure. I use it to define 
+          the layout and organize content semantically, making websites 
+          accessible & SEO-friendly.<br>
+          CSS is used to style HTML content and create visually engaging web interfaces. 
+          It allows me to design responsive layouts, apply animations, and customize 
+          themes, ensuring a consistent look and feel across devices.
+        </p>
+      </div>
+      
+      <div class="item2"><i id="ic" class="fa-brands fa-python"></i><br>
+        Back-end Development<br><span CLASS="SP">Python Programming</span><br>
+        <p class="parag">I built my backend logic and automated tasks using Python. 
+          I developed my scalable web apps with Django.</p>
+      </div>
+      
+      <div class="item3"><i id="ic" class="fa-solid fa-database"></i><br>
+        Database Management<br><span CLASS="SP">SQL</span><br>
+        <p class="parag">SQL is used to store, retrieve, and manage data in relational databases. 
+          I use SQL to write efficient queries for CRUD operations,
+           data analysis, and reporting. It's essential for backend 
+           operations and data-driven decision making.</p>
+      </div>
+      
+        <div class="item5"><i id="ic" class="fa-brands fa-js"></i><br>
+        JavaScript<br><span CLASS="SP">Jquery</span><br>
+        <p class="parag">jQuery is a fast, lightweight JavaScript library that simplifies DOM manipulation,
+           event handling, and AJAX calls. I use it to write cleaner and more 
+           concise JavaScript code, especially when dealing with cross-browser compatibility.</p>
+      </div>    
+  </div>
+  </section>
+
+  <!--skills container end------------------------------>
+
+  <!---Projects container-->
+  <div class="projects"  id="container-4">
+       <div id="head"><i class="fa-solid fa-list-check"></i> Projects</div>
+       
+       <div class="grids">  
+        
+       <div class="grid-1">
+        <img class="img-1" src="Python_projects_1.png" alt="Product 1" width="350px" height="150px">
+            <h3>Employee Management System</h3>
+            <p>This project is a text-based Employee Management System developed in Python, 
+              utilizing object-oriented programming (OOP) concepts such as classes, objects, 
+              encapsulation (getter/setter methods), and list data structures. The system provides
+               a simple interface to manage employee information, making it a great beginner project 
+               for practicing OOP in Python.</p>
+            <a href="https://github.com/Manju1803/Employee-Management-System"><button>View Projects</button></a>
+       </div>
+       
+       <div class="grid-2" >
+        <img class="img-1" src="ecommerce.jpg" alt="Product 1" width="350px" height="150px">
+        <h3>GoShop-Simple E-commerce Layout</h3>
+        <p>The webpage is a simple and responsive e-commerce layout named "GoShop." 
+          It features a black header with a logo and navigation menu linking to Home, 
+          Products, Cart, and Login sections. The main content showcases a list of products, 
+          each displayed in a stylish card with an image, product name, price, and an "Add to Cart" button.
+        </p>
+        <a href="https://github.com/Manju1803/E-commerce-Goshop-Task"><button>View Projects</button></a>
+      </div>
+      
+      <div class="grid-3" >
+        <img class="img-1" src="rise_and_shine.jpg" alt="Product 1" width="350px" height="150px">
+        <h3>"Rise & Shine" institute webpage</h3>
+        <p>The "Rise & Shine" webpage is a well-structured, visually engaging website designed 
+          for an educational institute. It features a clean header with a logo and navigation menu, 
+          followed by a welcoming section with a banner image and animated headline. 
+          The footer offers quick service links and social media icons with hover effects. 
+        </p>
+        <a href="https://github.com/Manju1803/HTML-CSS-Projects-Rise-Shine-"><button>View Projects</button></a>
+      </div>
+       <div class="grid-4" >
+        <img class="img-1" src="form_validation.avif" alt="Product 1" width="350px" height="150px">
+        <h3>Login Form with Validation</h3>
+        <p>This code creates a simple login form using HTML, styled with basic CSS, and includes 
+          JavaScript for form validation. The form asks users to enter their username, email, password, 
+          confirm their password, and select their country from a dropdown. When the user submits the 
+          form, JavaScript checks if all fields are filled correctly.</p>
+          <a href="https://github.com/Manju1803/Login-form-validation-Task"><button>View Projects</button></a>
+      </div>
+      
+      <div class="grid-5" >
+        <img class="img-1" src="calculate.webp" alt="Product 1" width="350px" height="150px">
+        <h3>Calculate Method Project</h3>
+        <p>This code creates a fully functional calculator with a visually styled interface. 
+          It handles basic arithmetic operations and user input through button clicks. 
+          JavaScript dynamically updates the display, evaluates the math expressions, and handles
+           functions like clearing and deleting input.</p>
+           <a href="https://github.com/Manju1803/JQuery-Calculate-projects"><button>View Projects</button></a>
+      </div>
+      <div class="grid-6" >
+        <img class="img-1" src="signup_and_login.jpg" alt="Product 1" width="350px" height="150px">
+        <h3>Sign Up & Login Page</h3>
+        <p>This code creates a visually styled Sign Up and Login web page using HTML, CSS, 
+          JavaScript, and jQuery. The layout includes two main sections: a Sign Up form for
+           new users and a Login form for returning users, each with input fields for name, 
+           username, phone number, email, and password. Users can toggle between the forms using 
+           links, with smooth transitions handled by jQuery.</p>
+           <a href="https://github.com/Manju1803/-Signup-page-projects-/blob/main/README.md"><button>View Projects</button></a>
+      </div>
+    </div>
+      
+</div>
+<!---Projects container--------------------------------->
+
+<!--contact container-->
+ <div class="head-2"><h2><i class="fa-solid fa-envelope"> Contact Me</i></h2></div>
+<section class="contact-section" id="contact">
+  <p>Feel free to reach out using the form below!</p>
+
+  <form id="contactForm" onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form><br>
+  <section class="followup_icons1">
+    <a href="https://www.linkedin.com/in/manju-ramar-5316392bb"><i class="fa-brands fa-linkedin" id="ln"></i></a>
+    <a href="#"><i class="fa-brands fa-square-github" id="wp"></i></a>
+    <a href="#"><i class="fa-solid fa-envelope-open-text"  id="x"></i></a>
+   </section>
+</section>
+
+<!-- contact Jquery function-->
+<script>
+function validateForm() {
+   name = document.getElementById("name").value;
+   email = document.getElementById("email").value;
+   message = document.getElementById("message").value;
+
+  if (name === "" || email === "" || message === "") {
+    alert("Please fill in all fields.");
+    return false;
+  }
+
+  alert("Thank you! Your message has been sent.");
+  return true; 
+}
+</script>
+  
+<!--contact container end-------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+</body>
+</html>
